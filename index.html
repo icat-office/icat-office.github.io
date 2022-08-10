@@ -39,19 +39,19 @@
 温馨提示 ：过期作废(发布后七天内可由群成员让群管理员改进)❗ 请务必看重！请务必看重‼ 
 </div>
 <script>
+
 var myDate = new Date();
 var y = myDate.getFullYear();
 var m = myDate.getMonth();
 
 var m1 = m +1;
 var m2 = m1 +1;
-document.getElementById("start").innerHTML=y+m1+".01";
-document.getElementById("end").innerHTML=y+m2+".01";
+document.getElementById("start").innerHTML=y+"."+m1+".01";
+document.getElementById("end").innerHTML=y+"."+m2+".01";
 function myFunction(){
   var c = document.getElementById("content");
   location.href = "https://wxchat-cat.github.io/setting.html?start=" + c;
 }
- 
 </scrpt>
 </body>
 </html>
