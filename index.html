@@ -45,21 +45,10 @@ var m = myDate.getMonth();
 
 var m1 = m +1;
 var m2 = m1 +1;
- 
-var s = y+"."+m1+".01";
-var e = y+"."+m2+".01";
-
-document.getElementById("start").innerHTML= s;
-document.getElementById("end").innerHTML= e;
-
 function myFsetting(){
-   var c = document.getElementById("content");
-   location.href = 'https://wxchat-cat.github.io/setting.html?start='+c;
+ location.href = 'setting.html';
 } 
-var x=location.search;//提取?后的URL
-var u=decodeURIComponent(x);//解码
-var a =u.match(/ch=(.*)/)[1];
-document.getElementById("content").innerHTML= a;
-</script>
+ 
+</scrpt>
 </body>
 </html>
