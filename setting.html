@@ -8,14 +8,15 @@
 更改:<br/><textarea id="ch"></textarea>
 <button onclick="myFunction()">提交</button>
 <script>
-var x=location.search;//提取?后的URL
-var u=decodeURIComponent(x);//解码
-var a =u.match(/start=(.*?)/)[1]; 
+var xg=location.search;//提取?后的URL
+var ug=decodeURIComponent(xg);//解码
+var ag =ug.match(/start=(.*?)/)[1]; 
 document.getElementById("ch").innerHTML= a ;
 
 function myFunction(){
-
+   
 }
 </script>
 </body>
 </html>
+
