@@ -51,6 +51,7 @@ document.getElementById("end").innerHTML= y+"."+m2+".01";
  
 function myFunction(){
   var co = document.getElementById("content");
+  var co = encodeURI(co);
   location.href = "https://wxchat-cat.github.io/setting.html?start="+co;
 }
 </script>
